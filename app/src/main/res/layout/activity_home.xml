@@ -26,7 +26,7 @@
         app:layout_constraintTop_toBottomOf="@+id/create_ex" />
 
     <Button
-        android:id="@+id/start_sess"
+        android:id="@+id/start_session"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Start session"

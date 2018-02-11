@@ -19,7 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".CreateExercise" />
+        <activity android:name=".CreateExerciseActivity" />
+        <activity android:name=".CreateRoutineActivity" />
+        <activity android:name=".SeeSessionsActivity" />
+        <activity android:name=".StartSessionActivity"></activity>
     </application>
 
 </manifest>
