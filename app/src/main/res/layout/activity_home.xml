@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context="io.pommer.rasmusandersen.trackex.HomeActivity">
 
+    <Button
+        android:id="@+id/create_ex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Create exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/create_rout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create exercise routine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_ex" />
+
+    <Button
+        android:id="@+id/start_sess"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Start session"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_rout" />
+
+    <Button
+        android:id="@+id/see_sessions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="See sessions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_sess" />
 </android.support.constraint.ConstraintLayout>
