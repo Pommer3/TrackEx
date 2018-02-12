@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.pommer.rasmusandersen.trackex.HomeActivity">
+    tools:context="io.pommer.rasmusandersen.trackex.HomeActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/create_ex"
@@ -32,7 +33,7 @@
         android:text="Start session"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/create_rout" />
+        app:layout_constraintTop_toBottomOf="@+id/see_sessions" />
 
     <Button
         android:id="@+id/see_sessions"
@@ -41,5 +42,5 @@
         android:text="See sessions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/start_sess" />
+        app:layout_constraintTop_toBottomOf="@+id/create_rout" />
 </android.support.constraint.ConstraintLayout>

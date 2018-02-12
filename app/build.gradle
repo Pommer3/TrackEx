@@ -9,12 +9,6 @@ apply plugin: 'realm-android'
 
 android {
     signingConfigs {
-        config {
-            keyAlias 'debug'
-            keyPassword 'android'
-            storeFile file('C:/Users/Rasmus/.android/debug.keystore')
-            storePassword 'android'
-        }
     }
     compileSdkVersion 26
     defaultConfig {
